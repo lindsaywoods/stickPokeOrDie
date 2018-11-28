@@ -1,0 +1,37 @@
+.footerhide {
+    border-top: 4px dotted $mainContrast;
+    // display: none;
+    text-align: center;
+    font-family: 'Cutive Mono', monospace;
+    margin: 50px 0 10px;
+    letter-spacing: 3px;
+}
+.footerflex {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    // padding-left: 10px;
+    // max-width: 90%;
+}
+
+.footerflex a {
+    text-decoration: underline;
+    color: $mainContrast;
+}
+
+.space {
+    width: 2px;
+    background-color: $mainContrast;
+}
+
+// @media (max-width: 544px) {
+//     footer {
+//         margin-top: 115px;
+//     }
+// }
+
+// @media (max-width: 425px) {
+//     footer {
+//         margin-top: 130px;
+//     }
+// }

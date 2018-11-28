@@ -1,0 +1,103 @@
+.bannerall {
+    // color: #000000;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px 20px 30px;
+}
+
+
+
+.banner-1 {
+    font-family: 'Barrio', cursive;
+    font-size: 30px;
+    &::after {
+        content: "  \2665";
+    }
+    &::before {
+        content: "\2665  ";
+    }
+    
+}
+
+
+.banner-2 {
+    font-family: 'Megrim', cursive;
+    font-size: 35px;
+    font-weight: bold;
+    &::before {
+        content:"\291c  ";
+        font-weight: normal;
+    }
+    &::after {
+        content:"  \291b";
+        font-weight: normal;
+    }
+}
+
+.banner-3 {
+    font-family: 'Share Tech Mono', monospace;
+    padding: 0 20px 10px;
+    font-size: 32px;
+    &::before{
+        content: "\21a2  ";
+        font-size: 30px;
+    }
+    &::after{
+        content: "  \21a3";
+        font-size: 30px;
+    }
+}
+
+.banner-4 {
+    font-family: 'Ewert', cursive;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 10px 10px;
+    text-align: center;
+    &::before {
+        content:"\2606  "
+    }
+    &::after {
+        content:"  \2606";
+    }
+}
+@media (max-width: 599px) {
+    font-size: 20px;
+}
+
+
+
+
+
+.banner-5 {
+    font-family: 'Raleway Dots', cursive;
+    font-weight: heavy;
+    font-size: 40px;
+    padding: 10px;
+    &::before {
+        content:"\22ee \22ee \22ee    ";
+        font-size: 20px;
+        
+    }
+    &:after {
+        content:"    \22ee \22ee \22ee";
+        font-size: 20px;
+    }
+
+}
+
+.banner-6 {
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-size: 35px;
+    &::before {
+        // content:"\22c6 \22c4  ";
+        font-size: 30px;
+        padding-bottom: 2px;
+    }
+    &::after {
+        // content:"  \22c4 \22c6";
+        font-size: 30px;   
+        padding-bottom: 2px;     
+    }
+
+}
